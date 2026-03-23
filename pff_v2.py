@@ -7,8 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1hsttvBBAfz23Y7MEzG9ZgnZmZ4YVLA89
 """
 
-# 如果 Colab 里还没装 xlsxwriter，这行会自动安装
-!pip -q install xlsxwriter
+pip install xlsxwriter
 
 import pandas as pd
 import re
